@@ -2,6 +2,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
+LOCAL_CFLAGS    := -Wno-implicit-fallthrough
+
 LOCAL_SRC_FILES := \
         C2DColorConverter.cpp
 
